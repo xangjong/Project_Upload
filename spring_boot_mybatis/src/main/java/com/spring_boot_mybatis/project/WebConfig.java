@@ -10,7 +10,7 @@ public class WebConfig implements WebMvcConfigurer {
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/images/**")
-		.addResourceLocations("file:///Library/springWorkspace/product_images/");
+		.addResourceLocations("file:///Library/springWorkspace/product_images/product_images/");
 	}
 
 }
